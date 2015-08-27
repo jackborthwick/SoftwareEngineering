@@ -1,0 +1,25 @@
+printed output from console of gene names given protein ids entered on the command line
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 uniprotAccessExcercise.py P12331
+CAB2R
+Os01g0600900
+LOC_Os01g41710
+P0518F01.17-1
+
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 uniprotAccessExcercise.py P12342
+IL2RA
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 uniprotAccessExcercise.py P12345
+GOT2
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 uniprotAccessExcercise.py P12350
+MAT10
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 uniprotAccessExcercise.py P12319
+FCER1A
+FCE1A
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 uniprotAccessExcercise.py P12320
+trpD
+

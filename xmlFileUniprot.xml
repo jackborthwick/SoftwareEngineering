@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1989-10-01" modified="2015-06-24" version="99">
+<accession>P12340</accession>
+<name>RR12_MAIZE</name>
+<protein>
+<recommendedName>
+<fullName>30S ribosomal protein S12, chloroplastic</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">rps12-A</name>
+</gene>
+<gene>
+<name type="primary">rps12-B</name>
+</gene>
+<organism>
+<name type="scientific">Zea mays</name>
+<name type="common">Maize</name>
+<dbReference type="NCBI Taxonomy" id="4577"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>PACMAD clade</taxon>
+<taxon>Panicoideae</taxon>
+<taxon>Andropogoneae</taxon>
+<taxon>Zea</taxon>
+</lineage>
+</organism>
+<geneLocation type="chloroplast"/>
+<reference key="1">
+<citation type="journal article" date="1987" name="J. Biol. Chem." volume="262" first="15251" last="15255">
+<title>Nucleotide sequence, promoter analysis, and linkage mapping of the unusually organized operon encoding ribosomal proteins S7 and S12 in maize chloroplast.</title>
+<authorList>
+<person name="Giese K."/>
+<person name="Subramanian A.R."/>
+<person name="Larrinua I.M."/>
+<person name="Bogorad L."/>
+</authorList>
+<dbReference type="PubMed" id="2822717"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>cv. FR9CMSSR37</strain>
+<tissue>Leaf</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1995" name="J. Mol. Biol." volume="251" first="614" last="628">
+<title>Complete sequence of the maize chloroplast genome: gene content, hotspots of divergence and fine tuning of genetic information by transcript editing.</title>
+<authorList>
+<person name="Maier R.M."/>
+<person name="Neckermann K."/>
+<person name="Igloi G.L."/>
+<person name="Koessel H."/>
+</authorList>
+<dbReference type="PubMed" id="7666415"/>
+<dbReference type="DOI" id="10.1006/jmbi.1995.0460"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. B73</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1992" name="Plant Mol. Biol." volume="18" first="415" last="418">
+<title>Nucleotide sequence of a region of maize chloroplast DNA containing the 3' end of clpP, exon 1 of rps12 and rpl20 and their cotranscription.</title>
+<authorList>
+<person name="Wegloehner W."/>
+<person name="Subramanian A.R."/>
+</authorList>
+<dbReference type="PubMed" id="1732000"/>
+<dbReference type="DOI" id="10.1007/BF00034970"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-38</scope>
+<source>
+<strain>cv. FR9cms X FR37</strain>
+<tissue>Leaf</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">With S4 and S5 plays an important role in translational accuracy. Located at the interface of the 30S and 50S subunits (By similarity).</text>
+</comment>
+<comment type="subunit">
+<text>Part of the 30S ribosomal subunit.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Plastid</location>
+<location>Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the ribosomal protein S12P family.</text>
+</comment>
+<dbReference type="EMBL" id="M17841">
+<property type="protein sequence ID" value="AAA85359.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M17842">
+<property type="protein sequence ID" value="AAA85359.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X86563">
+<property type="protein sequence ID" value="CAA60309.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X60548">
+<property type="protein sequence ID" value="CAA43039.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S58629">
+<property type="entry name" value="S58629"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_043003.1">
+<property type="nucleotide sequence ID" value="NC_001666.2"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="P12340"/>
+<dbReference type="SMR" id="P12340">
+<property type="residue range" value="1-123"/>
+</dbReference>
+<dbReference type="STRING" id="4577.GRMZM2G170878_P01"/>
+<dbReference type="GeneID" id="1466374"/>
+<dbReference type="KEGG" id="zma:1466374"/>
+<dbReference type="Gramene" id="P12340"/>
+<dbReference type="MaizeGDB" id="67069"/>
+<dbReference type="KO" id="K02950"/>
+<dbReference type="BRENDA" id="3.4.21.92">
+<property type="organism ID" value="6752"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000007305">
+<property type="component" value="Chloroplast"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015935">
+<property type="term" value="C:small ribosomal subunit"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019843">
+<property type="term" value="F:rRNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003735">
+<property type="term" value="F:structural constituent of ribosome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006412">
+<property type="term" value="P:translation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-HAMAP"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.40.50.140">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00403_B">
+<property type="entry name" value="Ribosomal_S12_B"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012340">
+<property type="entry name" value="NA-bd_OB-fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006032">
+<property type="entry name" value="Ribosomal_S12/S23"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005679">
+<property type="entry name" value="Ribosomal_S12_bac"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11652">
+<property type="entry name" value="PTHR11652"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00164">
+<property type="entry name" value="Ribosom_S12_S23"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF002133">
+<property type="entry name" value="Ribosomal_S12/S23"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01034">
+<property type="entry name" value="RIBOSOMALS12"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50249">
+<property type="entry name" value="SSF50249"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00981">
+<property type="entry name" value="rpsL_bact"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00055">
+<property type="entry name" value="RIBOSOMAL_S12"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0687">Ribonucleoprotein</keyword>
+<keyword id="KW-0689">Ribosomal protein</keyword>
+<keyword id="KW-0694">RNA-binding</keyword>
+<keyword id="KW-0699">rRNA-binding</keyword>
+<feature type="chain" description="30S ribosomal protein S12, chloroplastic" id="PRO_0000146406">
+<location>
+<begin position="1"/>
+<end position="124"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="124" mass="13822" checksum="84D1EACDCC4C2BBF" modified="1995-11-01" version="2">
+MPTVKQLIRNARQPIRNARKSAALKGCPQRRGTCARVYTINPKKPNSALRKVARVRLTSG
+FEITAYIPGIGHNLQEHSVVLVRGGRVKDLPGVRYRIIRGTLDAVAVKNRQQGRSKYGAK
+KPKK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

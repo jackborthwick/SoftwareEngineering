@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1989-10-01" modified="2015-05-27" version="77">
+<accession>P12323</accession>
+<name>KLK2_CAVPO</name>
+<protein>
+<recommendedName>
+<fullName>Glandular kallikrein, prostatic</fullName>
+<ecNumber>3.4.21.35</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Prostate esterase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Tissue kallikrein</fullName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Cavia porcellus</name>
+<name type="common">Guinea pig</name>
+<dbReference type="NCBI Taxonomy" id="10141"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Hystricognathi</taxon>
+<taxon>Caviidae</taxon>
+<taxon>Cavia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1987" name="Biochemistry" volume="26" first="3471" last="3478">
+<title>Amino acid sequence of guinea pig prostate kallikrein.</title>
+<authorList>
+<person name="Dunbar J.C."/>
+<person name="Bradshaw R.A."/>
+</authorList>
+<dbReference type="PubMed" id="3307909"/>
+<dbReference type="DOI" id="10.1021/bi00386a034"/>
+</citation>
+<scope>PROTEIN SEQUENCE</scope>
+</reference>
+<comment type="function">
+<text>Glandular kallikreins cleave Met-Lys and Arg-Ser bonds in kininogen to release Lys-bradykinin.</text>
+</comment>
+<comment type="catalytic activity">
+<text>Preferential cleavage of Arg-|-Xaa bonds in small molecule substrates. Highly selective action to release kallidin (lysyl-bradykinin) from kininogen involves hydrolysis of Met-|-Xaa or Leu-|-Xaa.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the peptidase S1 family. Kallikrein subfamily.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Contains 1 peptidase S1 domain.</text>
+</comment>
+<dbReference type="EC" id="3.4.21.35"/>
+<dbReference type="PIR" id="A27207">
+<property type="entry name" value="A27207"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="P12323"/>
+<dbReference type="SMR" id="P12323">
+<property type="residue range" value="1-238"/>
+</dbReference>
+<dbReference type="STRING" id="10141.ENSCPOP00000020997"/>
+<dbReference type="eggNOG" id="COG5640"/>
+<dbReference type="HOGENOM" id="HOG000251820"/>
+<dbReference type="HOVERGEN" id="HBG013304"/>
+<dbReference type="Proteomes" id="UP000005447">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004252">
+<property type="term" value="F:serine-type endopeptidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001254">
+<property type="entry name" value="Peptidase_S1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018114">
+<property type="entry name" value="Peptidase_S1_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001314">
+<property type="entry name" value="Peptidase_S1A"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009003">
+<property type="entry name" value="Trypsin-like_Pept_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00089">
+<property type="entry name" value="Trypsin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00722">
+<property type="entry name" value="CHYMOTRYPSIN"/>
+</dbReference>
+<dbReference type="SMART" id="SM00020">
+<property type="entry name" value="Tryp_SPc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50494">
+<property type="entry name" value="SSF50494"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50240">
+<property type="entry name" value="TRYPSIN_DOM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00134">
+<property type="entry name" value="TRYPSIN_HIS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00135">
+<property type="entry name" value="TRYPSIN_SER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0645">Protease</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0720">Serine protease</keyword>
+<feature type="chain" description="Glandular kallikrein, prostatic" id="PRO_0000088701">
+<location>
+<begin position="1"/>
+<end position="239"/>
+</location>
+</feature>
+<feature type="domain" description="Peptidase S1" evidence="1">
+<location>
+<begin position="1"/>
+<end position="236"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system">
+<location>
+<position position="41"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system">
+<location>
+<position position="191"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...)">
+<location>
+<position position="78"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...)">
+<location>
+<position position="169"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="7"/>
+<end position="151"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="26"/>
+<end position="42"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="128"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="162"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="187"/>
+<end position="212"/>
+</location>
+</feature>
+<feature type="sequence variant">
+<original>K</original>
+<variation>W</variation>
+<location>
+<position position="50"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00274"/>
+</source>
+</evidence>
+<sequence length="239" mass="25989" checksum="56DC81BC10D49A64" modified="1989-10-01" version="1">
+VIGGQECARDSHPWQAAVYYYSDIKCGGVLVDPQWVLTAAHCINDSNQVKLGRHNLFEDE
+DTAQHFLVSQSVPHPDFNMSLLEPHNVLPNEDYSHDLMLLRLNQPAQITDSVQVMPLPTQ
+EVQVGTTCRALGWGSIDPDPAHPVFPDELQCVGLEILPSKNCDDAHIANVTGTMLCAGDL
+AGGKDTCVGDSGGPLICDGVLQGLTSWGDSPCGVAHSPSLYTKVIEYREWIERTMADNP
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>
