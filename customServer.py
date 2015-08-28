@@ -7,7 +7,7 @@ import json
 # use a class for example). The first argument passed to the function
 # is a dictionary containing CGI-style environment variables and the
 # second variable is the callable object (see PEP 333).
-def custom_app(environ, start_response):
+def custom_app(environ, start_response):#call apps in this simple server below to set the differnet parts of text etc.
     status = '200 OK' # HTTP Status
     headers = [('Content-type', 'text/plain; charset=utf-8')] # HTTP Headers
     start_response(status, headers)
@@ -19,7 +19,6 @@ def custom_app(environ, start_response):
     except(ValueError):
         content_length = 0
         print("CONTENT LENGTH IS 0")
-        
 
     body =  environ['wsgi.input'].read(int(content_length)).decode('utf-8')
 
