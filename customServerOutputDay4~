@@ -1,0 +1,16 @@
+printed output to console from client code
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 clientForCustomServer.py 
+b'{"QUERY_STRING": "sampleQuery", "BODY": "hi", "CONTENT_LENGTH": "2", "PATH_INFO": "/", "REQUEST_METHOD": "GET"}'
+
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 clientForCustomServer.py 
+b'{"QUERY_STRING": "sampleQuery", "BODY": "I am fake putting", "CONTENT_LENGTH": "17", "PATH_INFO": "/putpath", "REQUEST_METHOD": "PUT"}'
+
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 clientForCustomServer.py 
+b'{"QUERY_STRING": "maybe=yes", "BODY": "I am changing some more stuff", "CONTENT_LENGTH": "29", "PATH_INFO": "/lets/try/another/path", "REQUEST_METHOD": "PUT"}'
+
+
+jack@jack-MacBookPro-Invalid-entry-length-DMI-table-is-broken-Stop:~/Documents/SoftwareEngineering$ python3 clientForCustomServer.py 
+b'{"QUERY_STRING": "definitely=always", "BODY": "I am changing stuff again", "CONTENT_LENGTH": "25", "PATH_INFO": "/lets/post/it", "REQUEST_METHOD": "POST"}'
